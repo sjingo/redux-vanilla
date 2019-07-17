@@ -1,0 +1,24 @@
+{
+  "name": "new-res-redux",
+  "version": "1.0.0",
+  "description": "Async state management layer for new reservation booking form",
+  "main": "index.js",
+  "dependencies": {
+    "redux": "^4.0.4",
+    "redux-starter-kit": "^0.6.0",
+    "terser-webpack-plugin": "^1.3.0",
+    "webpack": "^4.35.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "dev": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}
